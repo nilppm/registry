@@ -1,0 +1,32 @@
+{
+  "name": "nilppm",
+  "version": "1.0.0",
+  "description": "nilppm registry project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nilppm start -m 1 -p 9000 && pm2 logs",
+    "restart": "nilppm restart",
+    "stop": "nilppm stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilppm/registry.git"
+  },
+  "keywords": [
+    "npm",
+    "nppm",
+    "nilppm",
+    "node",
+    "package",
+    "manager"
+  ],
+  "author": "cevio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilppm/registry/issues"
+  },
+  "homepage": "https://github.com/nilppm/registry#readme",
+  "dependencies": {
+    "@nilppm/npm": "^1.0.14"
+  }
+}
