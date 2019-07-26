@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/nilppm/registry#readme",
   "dependencies": {
-    "@nilppm/npm": "^1.1.2"
+    "@nilppm/npm": "^1.1.4"
   }
 }
